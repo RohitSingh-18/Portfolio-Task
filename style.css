@@ -108,13 +108,14 @@ body {
   }
 }
 
-@media (max-width: 576px){
+
+@media (max-width: 320px){
   .header img{
-    height: 65px;
+    height: 80px;
   }
 
   .header #menu-icon{
-    font-size: 50px;
+    font-size: 60px;
   }
 }
 
