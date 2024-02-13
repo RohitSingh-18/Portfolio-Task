@@ -115,7 +115,18 @@ body {
   }
 
   .header #menu-icon{
+    color: red;
     font-size: 60px;
+
+  }
+}
+@media (min-width: 321px) and (max-width: 575px){
+  .header img{
+    height: 70px;
+  }
+
+  .header #menu-icon{
+    font-size: 55px;
   }
 }
 
