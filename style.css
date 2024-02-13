@@ -122,11 +122,11 @@ body {
 }
 @media (min-width: 321px) and (max-width: 575px){
   .header img{
-    height: 70px;
+    height: 80px;
   }
 
   .header #menu-icon{
-    font-size: 55px;
+    font-size: 65px;
   }
 }
 
