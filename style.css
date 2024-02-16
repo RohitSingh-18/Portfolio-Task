@@ -187,7 +187,7 @@ body {
 
 /* EXPERIENCE CARD START */
 
-.experience-card h1 {
+/* .experience-card h1 {
   font-size: 30px;
   margin: 30px 0 25px 0;
   text-align: center;
@@ -230,7 +230,7 @@ body {
   width: 50%;
   text-align: start;
   margin: 0 auto;
-}
+} */
 
 /* EXPERIENCE CARD Ends */
 
@@ -473,6 +473,61 @@ footer .icons {
     height: auto;
     width: auto;
   }
+  
+  /* EXPERIENCE START */
+  .experience-card h1 {
+    margin: 60px 0 55px 0;
+    width: 300%;
+    font-size: 85px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 254, 255, 1) 19%,
+      rgba(9, 9, 121, 1) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .details {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    width: 300%;
+  }
+  
+  .designation {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .details .brand-logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 31px;
+    margin-right: 25px;
+  }
+  
+  .duration {
+    margin-left: 20px;
+    font-size:25px ;
+    word-spacing: 3px;
+  }
+  
+  .about-job p{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: start;
+    margin: 0 auto;
+  }
+  /* EXPERIENCE ENDS */
 }
 
 @media (min-width: 769px) and (max-width: 2560px) {
@@ -612,6 +667,53 @@ footer .icons {
     height: auto;
     width: auto;
   }
+
+  /* EXPERIENCE START */
+  .experience-card h1 {
+    font-size: 30px;
+    margin: 30px 0 25px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 254, 255, 1) 19%,
+      rgba(9, 9, 121, 1) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .details {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .designation {
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .details .brand-logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 375px;
+    margin-right: 21px;
+  }
+
+  .duration {
+    margin-left: 300px;
+    word-spacing: 3px;
+  }
+
+  .about-job {
+    padding-top: 3px;
+    font-size: 12px;
+    width: 50%;
+    text-align: start;
+    margin: 0 auto;
+  } 
+  /* EXPERIENCE ENDS */
 }
 /* AVATAR */
 
