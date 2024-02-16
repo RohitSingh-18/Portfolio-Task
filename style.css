@@ -145,6 +145,17 @@ body {
   .about{
     width: 300%;
   }
+
+  .about h1{
+    font-size:xxx-large;
+  }
+  .about h2{
+    font-size:x-large;
+  }
+  .about p{
+    border: 1px solid red;
+    font-size: 24px;
+  }
   
 }
 
@@ -159,6 +170,10 @@ body {
 
   .avatar {
     padding-top: 150px;
+  }
+
+  .about p{
+    font-size: 14px;
   }
   
 }
@@ -205,7 +220,7 @@ body {
   margin-right: auto;
   text-align: center;
   word-spacing: 3px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .exp-with {
