@@ -429,13 +429,13 @@ footer .icons {
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .avatar {
     height: 800px;
     display: flex;
     justify-content: center;
     width: 300%;
-    padding-top: 150px;
+    padding-top: 210px;
   }
   .avatar img {
     margin-top: 60px;
