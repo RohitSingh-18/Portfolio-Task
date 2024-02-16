@@ -158,9 +158,15 @@ body {
     width: 850px;
   }
 
-  .logos{
-    height: px;
+  .logos {
+    height: 150px;
     width: 300%;
+  }
+
+  .logos-slide svg {
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 70px  ;
   }
 }
 
@@ -180,6 +186,11 @@ body {
   .about p {
     font-size: 14px;
     width: 650px;
+  }
+
+  .logos-slide svg {
+    height: 33px;
+    margin: 0 40px;
   }
 }
 /* AVATAR */
@@ -248,10 +259,10 @@ body {
   animation: 20s slide infinite linear;
 }
 
-.logos-slide svg {
+/* .logos-slide svg {
   height: 33px;
   margin: 0 40px;
-}
+} */
 
 @keyframes slide {
   from {
