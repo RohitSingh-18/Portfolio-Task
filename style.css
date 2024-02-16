@@ -421,11 +421,11 @@ footer .icons {
 /* AVATAR */
 @media (min-width: 320px) and (max-width: 575px) {
   .header img {
-    height: 95px;
+    height: 110px;
   }
 
   .header #menu-icon {
-    font-size: 80px;
+    font-size: 100px;
   }
 }
 
