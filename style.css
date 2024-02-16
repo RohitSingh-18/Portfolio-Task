@@ -431,7 +431,7 @@ footer .icons {
 
 @media (max-width: 768px) {
   .avatar {
-    height: 800px;
+    height: 830px;
     display: flex;
     justify-content: center;
     width: 300%;
