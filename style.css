@@ -399,6 +399,7 @@ footer .icons {
   .card {
     height: 700px;
     width: 900px;
+    margin-bottom: 35px;
     background: rgba(255, 255, 255, 0.1);
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
