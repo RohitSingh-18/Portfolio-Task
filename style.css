@@ -64,138 +64,7 @@ body {
   display: none;
 }
 
-/* BREAKPOINTS */
 
-@media (max-width: 992px) {
-  .header {
-    padding: 1.25rem 4%;
-  }
-}
-@media (max-width: 768px) {
-  #menu-icon {
-    display: block;
-  }
-  .navbar {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 0.5rem 4%;
-    display: none;
-    background: rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    z-index: 100;
-  }
-  .navbar.active {
-    display: block;
-  }
-  .navbar a {
-    display: block;
-    margin: 1.5rem 0;
-  }
-  .nav-bg {
-    position: absolute;
-    top: 79px;
-    left: 0;
-    width: 100%;
-    height: 295px;
-
-    display: none;
-  }
-  .nav-bg.active {
-    display: block;
-  }
-}
-
-@media (max-width: 319px) {
-  .header img {
-    height: 80px;
-  }
-
-  .header #menu-icon {
-    color: red;
-    font-size: 60px;
-  }
-}
-
-/* AVATAR */
-@media (min-width: 320px) and (max-width: 575px) {
-  .header img {
-    height: 95px;
-  }
-
-  .header #menu-icon {
-    font-size: 80px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
-  .avatar {
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    width: 300%;
-    padding-top: 150px;
-  }
-  .avatar img {
-    margin-top: 60px;
-    padding-left: 60px;
-  }
-
-  .about {
-    width: 300%;
-  }
-
-  .about h1 {
-    font-size: 80px;
-  }
-  .about h2 {
-    font-size: xx-large;
-  }
-  .about p {
-    font-size: 35px;
-    width: 1100px;
-  }
-
-  .logos {
-    height: 150px;
-    width: 300%;
-  }
-
-  .logos-slide svg {
-    height: 50px;
-    margin-top: 25px;
-    margin-left: 70px  ;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 2560px) {
-  .avatar img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 223px;
-    width: 251px;
-  }
-
-  .avatar {
-    padding-top: 150px;
-  }
-
-  .about p {
-    font-size: 14px;
-    width: 650px;
-  }
-
-  .logos-slide svg {
-    height: 33px;
-    margin: 0 40px;
-  }
-}
-/* AVATAR */
-
-/* BREAKPOINT ENDS */
 
 /* .avatar img {
   display: block;
@@ -490,3 +359,137 @@ footer .icons {
   color: #fff;
 }
 /* CONTACT END */
+
+/* BREAKPOINTS */
+
+@media (max-width: 992px) {
+  .header {
+    padding: 1.25rem 4%;
+  }
+}
+@media (max-width: 768px) {
+  #menu-icon {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 4%;
+    display: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+  }
+  .navbar.active {
+    display: block;
+  }
+  .navbar a {
+    font-size: xx-large;
+    display: block;
+    margin: 1.5rem 0;
+  }
+  .nav-bg {
+    position: absolute;
+    top: 79px;
+    left: 0;
+    width: 100%;
+    height: 295px;
+
+    display: none;
+  }
+  .nav-bg.active {
+    display: block;
+  }
+}
+
+@media (max-width: 319px) {
+  .header img {
+    height: 80px;
+  }
+
+  .header #menu-icon {
+    color: red;
+    font-size: 60px;
+  }
+}
+
+/* AVATAR */
+@media (min-width: 320px) and (max-width: 575px) {
+  .header img {
+    height: 95px;
+  }
+
+  .header #menu-icon {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .avatar {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    width: 300%;
+    padding-top: 150px;
+  }
+  .avatar img {
+    margin-top: 60px;
+    padding-left: 60px;
+  }
+
+  .about {
+    width: 300%;
+  }
+
+  .about h1 {
+    font-size: 80px;
+  }
+  .about h2 {
+    font-size: xx-large;
+  }
+  .about p {
+    font-size: 35px;
+    width: 1100px;
+  }
+
+  .logos {
+    height: 150px;
+    width: 300%;
+  }
+
+  .logos-slide svg {
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 70px  ;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 2560px) {
+  .avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 223px;
+    width: 251px;
+  }
+
+  .avatar {
+    padding-top: 150px;
+  }
+
+  .about p {
+    font-size: 14px;
+    width: 650px;
+  }
+
+  .logos-slide svg {
+    height: 33px;
+    margin: 0 40px;
+  }
+}
+/* AVATAR */
+
+/* BREAKPOINT ENDS */
