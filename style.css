@@ -131,22 +131,35 @@ body {
 
 @media (min-width: 320px) and (max-width: 786px) {
   .avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
     width: 290%;
   }
-  
+  .avatar img {
+    margin-top: 60px;
+    padding-left: 50px;
+  }
 }
-/* BREAKPOINT ENDS */
 
-.avatar img {
+@media (min-width: 787px) and (max-width: 1440px) {
+  .avatar img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 223px;
   width: 251px;
 }
+
+}
+/* BREAKPOINT ENDS */
+
+/* .avatar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  /* height: 223px;
+  width: 251px; */
+/* } */
 
 .avatar {
   padding-top: 150px;
