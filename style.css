@@ -64,8 +64,6 @@ body {
   display: none;
 }
 
-
-
 /* .avatar img {
   display: block;
   margin-left: auto;
@@ -170,7 +168,7 @@ body {
 
 .projects-card h1 {
   margin: 30px 0 25px 0;
-  text-align: center;
+  /* text-align: center; */
   font-family: "Poppins", sans-serif;
   background: linear-gradient(
     180deg,
@@ -368,7 +366,7 @@ footer .icons {
   }
 }
 @media (max-width: 768px) {
-  .header{
+  .header {
     height: 200px;
   }
   #menu-icon {
@@ -465,7 +463,19 @@ footer .icons {
   .logos-slide svg {
     height: 50px;
     margin-top: 25px;
-    margin-left: 70px  ;
+    margin-left: 70px;
+  }
+
+  #projects h1 {
+    width: 300%;
+    font-size: 65px;
+    text-align: center;
+  }
+
+  .card-container{
+    border: 2px solid red;
+    width: 300%;
+    gap: 50px;
   }
 }
 
@@ -491,6 +501,12 @@ footer .icons {
     height: 33px;
     margin: 0 40px;
   }
+
+  #projects {
+    text-align: center;
+  }
+
+  
 }
 /* AVATAR */
 
