@@ -147,13 +147,12 @@ body {
   }
 
   .about h1{
-    font-size:xxx-large;
+    font-size:65px;
   }
   .about h2{
     font-size:x-large;
   }
   .about p{
-    border: 1px solid red;
     font-size: 24px;
   }
   
