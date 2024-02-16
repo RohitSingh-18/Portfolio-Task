@@ -119,6 +119,7 @@ body {
   }
 }
 
+/* AVATAR */
 @media (min-width: 320px) and (max-width: 575px) {
   .header img {
     height: 95px;
@@ -129,20 +130,44 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 786px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .avatar {
     display: flex;
     justify-content: center;
-    width: 290%;
+    width: 300%;
+    padding-top: 150px;
   }
   .avatar img {
     margin-top: 60px;
-    padding-left: 50px;
+    padding-left: 60px;
   }
+
+  .about{
+    border: 1px solid red;
+    width: 300%;
+  }
+  
 }
 
-@media (min-width: 787px) and (max-width: 1440px) {
+@media (min-width: 769px) and (max-width: 2560px) {
   .avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 223px;
+    width: 251px;
+  }
+
+  .avatar {
+    padding-top: 150px;
+  }
+  
+}
+/* AVATAR */
+
+/* BREAKPOINT ENDS */
+
+/* .avatar img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -150,20 +175,9 @@ body {
   width: 251px;
 }
 
-}
-/* BREAKPOINT ENDS */
-
-/* .avatar img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; */
-  /* height: 223px;
-  width: 251px; */
-/* } */
-
 .avatar {
   padding-top: 150px;
-}
+} */
 
 .about h1 {
   color: white;
