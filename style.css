@@ -157,6 +157,11 @@ body {
     font-size: 24px;
     width: 850px;
   }
+
+  .logos{
+    height: px;
+    width: 300%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 2560px) {
