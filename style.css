@@ -187,7 +187,7 @@ body {
 
 /* EXPERIENCE CARD START */
 
-/* .experience-card h1 {
+.experience-card h1 {
   font-size: 30px;
   margin: 30px 0 25px 0;
   text-align: center;
@@ -201,36 +201,58 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.details {
-  display: inline-flex;
+.experience-card .details {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto;
 }
 
-.designation {
-  font-size: 19px;
+.experience-card .job-entry {
+  margin-bottom: 40px; /* Space between job entries */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05); /* Slightly visible background */
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience-card .job-entry .duration {
+  font-size: 14px;
+  color: #aaa; /* Muted color for duration */
+  margin-bottom: 5px;
+}
+
+.experience-card .job-entry .designation {
+  font-size: 18px;
+  font-weight: 600; /* Poppins 600 weight */
+  color: white;
+  margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
 }
 
-.details .brand-logo img {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  margin-left: 375px;
-  margin-right: 21px;
+.experience-card .job-entry .designation .location {
+  font-size: 14px;
+  font-weight: 400; /* Adjust as needed */
+  color: #ccc; /* Slightly lighter color for location */
 }
 
-.duration {
-  margin-left: 300px;
-  word-spacing: 3px;
+.experience-card .job-entry ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #ddd; /* Lighter color for list items */
 }
 
-.about-job {
-  padding-top: 3px;
-  font-size: 12px;
-  width: 50%;
-  text-align: start;
-  margin: 0 auto;
-} */
+.experience-card .job-entry ul li {
+    margin-bottom: 5px;
+}
+
+.experience-card .job-entry .tech-stack {
+  font-size: 14px;
+  color: #aaa; /* Muted color for tech stack */
+  margin-top: 10px;
+}
 
 /* EXPERIENCE CARD Ends */
 
